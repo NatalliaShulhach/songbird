@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+  max-width: 85%;
+  }
+  
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .header ul li{
+    flex: auto;
+    text-align: center;
+  }
+  .page-item .page-link {
+    background-color: #008966;
+    border-color: #007c5d;
+  }
+  
+  .active {
+    background-color: #02f6d6;
+    border-color: #007c5d;
+  }
+
+   .page-link:hover {
+    background-color: #00bc8c;
+    border-color: #007c5d;
+  }
+  
+  .top-panel {
+    min-width: 85vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    justify-content: space-between;
+  }
+  
+  .header .logo-box {
+    width: 55px;
+    height: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .score {
+    line-height: 55px;
+  }
+

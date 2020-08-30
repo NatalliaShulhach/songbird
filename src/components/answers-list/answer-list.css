@@ -1,0 +1,37 @@
+.answerNode{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 43vw;
+    margin-left: 11px;
+}
+
+.option{
+    padding: .85rem;
+    background-color: #303030;
+}
+
+.answerNode .MuiFormControlLabel-root:hover{
+    background-color: rgba(110, 110, 110, 0.575);
+    cursor: pointer;
+}
+
+label{
+    margin-bottom: 0;
+}
+
+.answerNode .MuiFormControlLabel-root{
+    display: block;
+    min-width: 45vw;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid #555;
+}
+
+@media (max-width: 763px) {
+    .answerNode .MuiFormControlLabel-root,
+    .answerNode{
+      display: flex;
+      min-width: 85vw;
+    } 
+}
+
