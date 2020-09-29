@@ -1,0 +1,132 @@
+.birdQuestion{
+    display: block;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+    width: 85vw;
+    margin: 0 auto;
+    background-color: rgba(110, 110, 110, 0.191);
+}
+
+.imageWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    min-width: auto;
+}
+
+.wrapperPlayer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-width: 50vw;
+    padding: 2rem;
+}
+ .randomBirdImage { 
+    justify-content: space-between;
+    width: 260px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.birdsName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    border-bottom: 2px solid rgba(110, 110, 110, 0.568);
+    width: auto;
+}
+
+.audioPlayer {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    background-color: none;
+    width: auto;
+}
+
+.audioPlayer::-webkit-media-controls-enclosure {
+    
+    width: 100%;
+    padding: 0;
+   
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.audioPlayer::-webkit-media-controls-panel{
+    background-color: rgb(110, 110, 110);
+}
+
+
+.ruleGame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-next-level:disabled{
+    background-color: rgba(148, 148, 148, 0.424);
+}
+
+.btn-next-level{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 85vw;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+    background-color: #007c5d;
+}
+
+.listGroupItem{
+    background-color: rgba(235, 49, 49, 0.192);
+}
+
+.gameNode{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px; 
+    width: 85vw;
+
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+@media (min-width: 763px) {
+    .birdQuestion {
+      display: flex;
+    }
+}
+
+.errorAnswer{
+    background-color: red;
+}
+
+.successAnswer{
+    background-color: rgb(151, 201, 206);;
+}
+
+.modalWindow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+    background-color: #007c5d;
+
+}

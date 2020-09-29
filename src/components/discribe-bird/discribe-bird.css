@@ -1,0 +1,98 @@
+.discriptionNode{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    padding: 2rem 2rem .5rem 2rem;
+    width: 38vw;
+    background-color: rgba(110, 110, 110, 0.191);
+    border: 1px solid #555;
+}
+
+.birdImage{
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 180px;
+    height: 170px;
+    border-radius: 15px;
+}
+
+.dataBird{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.dataBd{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.audioPl {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.audioPlayer::-webkit-media-controls-panel{
+    background-color: rgb(110, 110, 110);
+}
+
+.audioPl::-webkit-media-controls-enclosure {
+    background-color: rgb(110, 110, 110);
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.textBlock{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: .85rem;
+    border-top:  1px solid #555;
+}
+
+.discribeBirdsName{
+    text-align: left;
+    border-bottom:  1px solid #555;
+}
+
+@media (max-width: 763px) {
+    .discriptionNode {
+      display: flex;
+      min-width: 85vw;
+    }
+
+    .dataBd{
+        padding-top: 2rem;
+        padding-right: 0rem;
+    }
+
+    .discribeBirdsName{
+        text-align: center;
+    }
+
+    .birdImage{
+        min-height: 25vw;
+    }
+
+    .audioPl {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        max-width: 100%;
+    }
+}
+
